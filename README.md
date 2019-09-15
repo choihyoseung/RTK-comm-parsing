@@ -1,5 +1,5 @@
 # RTK-comm-parsing
- this code is derived from 2019 International Student Car Competition : Auto-Driving Team D-Ace, DGIST(Deagu Gyeongbuk institude of Science & Technology) based on c++
+ this code is derived from 2019 International Student Car Competition : Auto-Driving Team D-Ace, DGIST(Deagu Gyeongbuk institude of Science & Technology) based on **c++, Visual Studio 2017**
 
 # Introduction of CPP files & Functions
 ## CPP files
