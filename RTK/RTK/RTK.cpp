@@ -94,7 +94,6 @@ void RTK_Comm() {
 			}
 		}
 		in.close();
-		cout << "RTK Comm complete" << endl;
 	}
 }
 
