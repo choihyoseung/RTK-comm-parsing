@@ -34,7 +34,7 @@
  * User can modify this code as needed. 
  
  # Points to note
- 1. The overall code used NMEA protocol GNRMC.
+ 1. The overall code used NMEA protocol **GNRMC**.
  2. When converting to the UTM corrdinate system, the writer used the longitude and latitude form **ddmm.mmmm**, so the user needs to check whether raw data is saved in the abouve form **ddmm.mmmm**, when saving the raw data 
  3. When executing a function in **int main()** only one of **RTK_Comm** and **ValueTrans** can be executed and not simulataneously.
  4. User can use the codes above to implement a function that allows communication and value transformation at the same time.
