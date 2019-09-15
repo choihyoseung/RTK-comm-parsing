@@ -125,7 +125,7 @@ void ValueTrans(int lat_deg, int lng_deg) {
 
 			if (size(vec) > 8) {
 
-				if (vec[0] == "$GNRMC" && vec[2] == "A") {
+				if (vec[0] == "$GNRMC" && vec[2] == "A") { // you should check the RTK NEAM protocol; ex. $GNRMC, $ GPRMC, $GNGGA etc.
 
 					_lat = ((atof(vec[3].c_str()) - lat_deg * 100) / 60) + lat_deg; 
 					_lng = ((atof(vec[5].c_str()) - lng_deg * 100) / 60) + lng_deg; 
