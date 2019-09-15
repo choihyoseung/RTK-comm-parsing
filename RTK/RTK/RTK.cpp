@@ -105,7 +105,7 @@ void ValueTrans(int lat_deg, int lng_deg) {
 
 	cout << setprecision(16);
 
-	ifstream gpsfile(".txt");  
+	ifstream gpsfile(".txt");  // you should set the path of txt file inlcuding raw data you wanna change to UTM
 	ofstream ofile("ValueTrans_test.txt");
 	ofile << setprecision(16);
 
@@ -143,6 +143,17 @@ void ValueTrans(int lat_deg, int lng_deg) {
 
 	gpsfile.close();
 	ofile.close();
-	cout << "complete" << endl;
+	cout << "Raw data to UTM complete" << endl;
 }
 
+
+int main() {
+
+	//  you should change the number of lat_deg, lng_deg below to degree of current positoin
+	int lat_deg = 37;
+	int lng_deg = 126;
+	
+
+	//RTK_Comm();
+	//ValueTrans(lat_deg, lng_deg);
+}
